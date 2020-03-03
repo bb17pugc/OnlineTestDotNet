@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace OnlineTest.Models
 {
-    public class Apearing
+    public class AppearedCandidate
     {
+        public int ID { get; set; }
         public Candidate candidate { get; set; }
         public Subject subject { get; set; }
 
-        public List<Question> questions { get; set; }
     }
 }
